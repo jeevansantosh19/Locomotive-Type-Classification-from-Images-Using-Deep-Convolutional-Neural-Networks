@@ -1,0 +1,98 @@
+body 
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: mistyrose; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: darkslategray; 
+    padding: 20px;
+}
+
+.container 
+{
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    width: 95%;
+    max-width: 700px;
+    text-align: center;
+}
+
+h1 
+{
+    color: tomato; 
+    margin-bottom: 30px;
+    font-size: 2.5em;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.uploaded-image 
+{
+    background-color: pink; 
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    border: 1px solid lightpink; 
+}
+
+.uploaded-image h2 
+{
+    color: black; 
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+}
+
+.uploaded-image img 
+{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.prediction-output 
+{
+    background-color: lemonchiffon; 
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    border: 1px solid palegoldenrod; 
+}
+
+.prediction-output h2 
+{
+    color: tomato; 
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.prediction-output p 
+{
+    font-size: 1.1em;
+    color: black; 
+    margin-bottom: 15px;
+}
+
+.back-button 
+{
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: gold; 
+    color: darkslategray;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.back-button:hover 
+{
+    background-color: goldenrod; 
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.15);
+}

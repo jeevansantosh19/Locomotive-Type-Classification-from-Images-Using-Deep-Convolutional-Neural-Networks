@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='results.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Prediction Result</h1>
+        <div class="uploaded-image">
+            <h2>Uploaded Image:</h2>
+            <img src="data:image/png;base64,{{ uploaded_image }}" alt="Uploaded Locomotive Image">
+        </div>
+        <div class="prediction-output">
+            <h2>Predicted Class:</h2>
+            <p>{{ prediction }}</p>
+            <h2>Accuracy:</h2>
+            <p>{{ accuracy }}</p>
+            <h2>Entered Locomotive Class:</h2>
+            <p>{{ loco_class }}</p>
+        </div>
+        <a href="{{ url_for('home') }}" class="back-button">Go Back to Upload Form</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='home.css') }}">
+    </head>
+    <body>
+        <h1>Locomotive Type Classification From Images Using Deep Convolution Neural Networks</h1>
+        <marquee>It is Powered By Machine Learning and Deep Learning</marquee>
+        <div class="container">
+            <h1>Locomotive Prediction</h1>
+            <form method="POST" action="/predict" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="loco_class">Enter Locomotive Class :</label>
+                    <input type="text" id="loco_class" name="loco_class" placeholder="e.g., WAG-5, WAP-4, WDM-2" required>
+                    <p class="form-help">Please enter the locomotive class.</p>
+                </div>
+
+                <div class="form-group">
+                    <label for="image_file">Upload Locomotive Image:</label>
+                    <input type="file" id="image_file" name="image_file" accept="image/*" required>
+                    <p class="file-help">Please upload an image of the locomotive (JPEG, PNG, GIF, etc.).</p>
+                </div>
+
+                <button type="submit">Predict</button>
+            </form>
+        </div>
+        <br/>
+        <br/>
+    </body>
+</html>
