@@ -85,10 +85,10 @@ This architecture is optimized to classify the images into **Diesel Locomotive**
 ![Homepage](./Screenshot_11-4-2025_2206_127.0.0.1.jpeg)
 
 2. Filled Form:
-![Filled Form]()
+![Filled Form](./Screenshot_11-4-2025_22130_127.0.0.1.jpeg)
 
 3. Prediction Results:
-![Prediction Results]()
+![Prediction Results](./Screenshot_11-4-2025_22147_127.0.0.1.jpeg)
 
 ## Model Performance
 - Training Accuracy: 75.49%
