@@ -82,13 +82,13 @@ This architecture is optimized to classify the images into **Diesel Locomotive**
 
 ## Screenshots:
 1. Homepage:
-![Homepage](Screenshot_11-4-2025_2206_127.0.0.1)
+![Homepage](./Screenshot_11-4-2025_2206_127.0.0.1.jpeg)
 
 2. Filled Form:
-![Filled Form](Screenshot_11-4-2025_22130_127.0.0.1)
+![Filled Form]()
 
 3. Prediction Results:
-![Prediction Results](Locomotive-Type-Classification-from-Images-Using-Deep-Convolutional-Neural-Networks/Screenshot_11-4-2025_22147_127.0.0.1.jpeg)
+![Prediction Results]()
 
 ## Model Performance
 - Training Accuracy: 75.49%
