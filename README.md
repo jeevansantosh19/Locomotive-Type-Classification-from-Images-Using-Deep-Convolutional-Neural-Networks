@@ -17,9 +17,9 @@ The classification model is built using a Convolutional Neural Network (CNN) and
 
 ## Dataset:
 The dataset consists of images of locomotives, divided into three subsets:
-- Training Set: 600 images
-- Validation Set: 600 images
-- Test Set: 600 images
+- Training Set: 660 images
+- Validation Set: 660 images
+- Test Set: 660 images
 - 
 ##### Classes:
 - Diesel Locomotives: Includes locomotives such as WDP1, WDM2, WDM3A, and others.
